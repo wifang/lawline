@@ -1,4 +1,9 @@
 "# lawline" 
+
+install tables into api database
+run command: php artisan migrate
+You can add user by signup url
+
 1. login url : http://localhost/lawline/public/index.php/api/auth/login
 2. signup url : http://localhost/lawline/public/index.php/api/auth/signup
 3. add product :http://localhost/lawline/public/index.php/api/products?token=eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJzdWIiOjEsImlzcyI6Imh0dHA6XC9cL2xvY2FsaG9zdFwvVGVzdFwvcHVibGljXC9pbmRleC5waHBcL2FwaVwvYXV0aFwvbG9naW4iLCJpYXQiOjE1MDYxNDAwMjksImV4cCI6MTUwNjE0MzYyOSwibmJmIjoxNTA2MTQwMDI5LCJqdGkiOiI1MWRhYzQ3N2Q5MmI0MmNiYjdkNzk0ZTE1ZjVkZTE5MSJ9.rd-Z2Mz6KmCpAys4CcAYhw6jTWSk9cku-7eulctYtSQ
